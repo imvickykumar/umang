@@ -47,43 +47,14 @@
 		</nav>
 	</section>
 
-	<section id="center" style="width:'95%">
-		<div class="carousel fade-carousel slide responsive_img" data-ride="carousel" data-interval="4000"
-			id="bs-carousel">
-			<h2  style="color: white;" id="demo"></h2>
-		</div>
-	</section>
-<!-- 
-	<section id="news">
-		<div class="container">
-			<div class="row">
-				<div class="news_1 clearfix">
-					<div class="news_2">
-						<h2  style="color: white;" id="demo"></h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- <section id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="footer_main">
-					<div class="col-sm-2">
-						<div class="footer_2">
-							<p style="color:#fff" id="demo"></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
+	<div class="footer">
+		<h2 style="color: white;display:inline">OUR EVENT IS COMING UP IN: </h2>
+		<h2 id="timer" style="color: white;display:inline"></h2>
+	</div>
 
 	<script>
 		// Set the date we're counting down to
-		var countDownDate = new Date("Nov 3, 2024 09:00:00").getTime();
+		var countDownDate = new Date("Nov 3, 2023 09:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function () {
@@ -101,12 +72,12 @@
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 			// Output the result in an element with id="demo"
-			document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+			document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
 			// If the count down is over, write some text 
 			if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("demo").innerHTML = "EXPIRED";
+				document.getElementById("timer").innerHTML = "0d " +  "0h " + "0m " + "0s ";
 			}
 		}, 1000);
 	</script>
