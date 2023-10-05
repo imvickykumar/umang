@@ -318,7 +318,7 @@ section {}
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #111 none repeat scroll 0 0;
+  background: #0e055f none repeat scroll 0 0;
 }
 
 .footer_1 h3 {
@@ -329,7 +329,7 @@ section {}
 }
 
 .footer_1 li a {
-  color: #0e055f;
+  color: #fff;
   font-size: 16px;
   line-height: 30px;
 }
@@ -346,7 +346,7 @@ section {}
 }
 
 .footer_2 li {
-  color: #0e055f;
+  color: #fff;
   font-size: 16px;
   line-height: 33px;
 }
@@ -356,7 +356,7 @@ section {}
 }
 
 .footer_2 li a {
-  color: #0e055f;
+  color: #fff;
   font-size: 16px;
   line-height: 25px;
 }
@@ -365,12 +365,40 @@ section {}
   color: #deaf26;
 }
 
+
+.contact_style h3 {
+  color: #deaf26;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.contact_style li {
+  color: #0e055f;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.contact_style i {
+  padding-right: 10px;
+}
+
+.contact_style li a {
+  color: #0e055f;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.contact_style li a:hover {
+  color: #deaf26;
+}
+
 /********************* footer_end ****************/
 /********************* footer_main ****************/
 #footer_main {
   padding-top: 13px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: #0e055f;
 }
 
 .footer_main_2 p {
