@@ -7,6 +7,8 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 */
 
 /********************* center ****************/
+
+
 #center {
   padding: 0;
   margin: 0;
@@ -903,8 +905,10 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 @media (min-width:1210px) {
   #body_id {
     background-size: cover !important;
-  }
+    background-position: center !important;
+    height: 10px;
 
+  }
 }
 
 @media screen and (max-width:992px) {
@@ -931,4 +935,18 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 
 .sports_title {
   font-size: 37px !important;
+}
+
+.imageHome {
+
+  height: 10px;
+  width: 10px;
+}
+
+.eveimg{
+  border-radius: 20px;
+}
+
+.eveimg:hover {
+  transform: scale(0.9);
 }
